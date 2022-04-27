@@ -46,14 +46,17 @@ ul {
     color: #335576;
     flex-wrap: wrap;
     box-sizing: content-box;
+    align-content: stretch;
+    height: fit-content;
 }
 
 .footer__section {
     display: flex;
     flex-direction: column;
-    height: 5rem;
+    min-height: 5rem;
+    height: fit-content;
     box-sizing: content-box;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 40px 0;
 }
 
@@ -61,10 +64,16 @@ ul {
     font-size: 1.2rem;
 }
 
+.footer__content {
+    height: fit-content;
+    margin-right: 20px;
+}
+
 
 .footer__hours {
     display: flex;
-    gap: 3rem;
+    flex-wrap: wrap;
+    box-sizing: content-box;
 }
 
 .footer__info {
@@ -86,4 +95,6 @@ ul {
 .footer__social {
     display: flex;
     gap: 1.2rem;
+    flex-wrap: wrap;
+    box-sizing: content-box;
 }
