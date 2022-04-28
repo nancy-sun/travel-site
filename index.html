@@ -27,26 +27,34 @@
 
     <main>
         <section class="hero">
-            <div>
-                <img class="hero__img" src="./assets/Images/hero.png" alt="hero image">
-            </div>
             <div class="hero__context">
                 <h1 class="hero__slogan">Travelling Comes With Endless Discoveries</h1>
                 <p class="hero__info">Don't let your dreams be just dreams. Experience the world by booking a vacation
                     with us now.</p>
-                <a class="hero__button" href="">Get started</a>
+                <a class="hero__btn" href="./pages/register.html">Get started</a>
+            </div>
+            <div class="hero__img--wrap">
+                <img class="hero__img" src="./assets/Images/hero.png" alt="hero image">
             </div>
         </section>
         <section class="destinations">
             <h3 class="destinations__title">Recommendations</h3>
-            <div class="destinations__card destinations__hawaii">
-                <h3 class="destinations__name">Hawaii</h3>
-            </div>
-            <div class="destinations__card destinations__iceland">
-                <h3 class="destinations__name">Iceland</h3>
-            </div>
-            <div class="destinations__card destinations__Greece">
-                <h3 class="destinations__name">Greece</h3>
+            <div class="destinations__card--wrap">
+                <a href="./pages/hawaii.html">
+                    <div class="destinations__card destinations__hawaii">
+                        <h3 class="destinations__name">Hawaii</h3>
+                    </div>
+                </a>
+                <a href="./pages/iceland.html">
+                    <div class="destinations__card destinations__iceland">
+                        <h3 class="destinations__name">Iceland</h3>
+                    </div>
+                </a>
+                <a href="./pages/greece.html">
+                    <div class="destinations__card destinations__greece">
+                        <h3 class="destinations__name">Greece</h3>
+                    </div>
+                </a>
             </div>
         </section>
     </main>

@@ -1,0 +1,64 @@
+.banner {
+    background-position: center;
+    background-size: cover;
+    min-height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.5rem 3.4rem 7rem;
+    align-items: center;
+    box-sizing: border-box;
+    align-content: space-between;
+}
+
+.banner--hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.banner--greece {
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.banner--iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.banner__title {
+    color: white;
+    font-size: 3.7rem;
+}
+
+.banner__card--wrap {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 9rem;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.banner__card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 19.5rem;
+    width: 13rem;
+    background-color: white;
+    border-radius: 0.313rem;
+    flex-direction: column;
+    padding: 0.55rem;
+}
+
+.banner__day {
+    font-size: ;
+    border-bottom: solid black 0.063;
+    text-align: center;
+    margin-bottom: 0.7rem;
+}
+
+.banner__activity {
+    background-color: #FEFAF5;
+    padding: 1rem 0;
+    margin: 0.4rem;
+    text-align: center;
+    font-size: 0.8rem;
+}

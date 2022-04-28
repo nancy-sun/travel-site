@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Site: Iceland</title>
+    <title>Travel Site: Register</title>
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/destination.css">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 
 <body>
@@ -18,38 +18,41 @@
             </a>
             <ul class="nav__list">
                 <li><a class="nav__item" href="../index.html">Home</a></li>
-                <li><a class="nav__item" href="./hawaii.html">Hawaii</a></li>
-                <li><a class="nav__item nav__item--active" href="./iceland.html">Iceland</a></li>
+                <li><a class="nav__item nav__item--active" href="./hawaii.html">Hawaii</a></li>
+                <li><a class="nav__item" href="./iceland.html">Iceland</a></li>
                 <li><a class="nav__item" href="./greece.html">Greece</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="banner banner--iceland">
-        <h1 class="banner__title">Iceland</h1>
-        <div class="banner__card--wrap">
-            <section class="banner__card">
-                <h3 class="banner__day">Friday</h3>
-                <p class="banner__activity">Breakfast</p>
-                <p class="banner__activity">Lunch</p>
-                <p class="banner__activity">Dinner</p>
-                <p class="banner__activity">Hiking</p>
-            </section>
-            <section class="banner__card">
-                <h3 class="banner__day">Saturday</h3>
-                <p class="banner__activity">Breakfast</p>
-                <p class="banner__activity">Lunch</p>
-                <p class="banner__activity">Dinner</p>
-                <p class="banner__activity">Hiking</p>
-            </section>
-            <section class="banner__card">
-                <h3 class="banner__day">Sunday</h3>
-                <p class="banner__activity">Breakfast</p>
-                <p class="banner__activity">Lunch</p>
-                <p class="banner__activity">Dinner</p>
-                <p class="banner__activity">Hiking</p>
-            </section>
+
+    <main class="banner banner--register">
+        <div class="register">
+            <h3>Register Now</h3>
+            <form action="" class="register__form">
+                <label for="">Destination</label>
+                <select name="" id="">
+                    <option value="" selected></option>
+                    <option value="">Hawaii</option>
+                    <option value="">Iceland</option>
+                    <option value="">Greece</option>
+                </select>
+
+                <label for="">Email</label>
+                <input type="email">
+
+                <label for="">Other Info</label>
+
+                <textarea name="" id="" cols="" rows="5"></textarea>
+
+                <button class="register__btn">submit</button>
+            </form>
         </div>
+
+        <div class="register__img--wrap">
+            <img class="register__img" src="../assets/Images/hero.png" alt="hero image">
+        </div>
+
     </main>
 
 
@@ -95,6 +98,7 @@
             </div>
         </section>
     </footer>
+
 </body>
 
 </html>

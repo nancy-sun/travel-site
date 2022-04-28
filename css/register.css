@@ -1,0 +1,35 @@
+.banner {
+    background-position: center;
+    background-size: cover;
+    min-height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.5rem 3rem 7rem;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #FEFAF5;
+    justify-content: space-evenly;
+}
+
+.register {
+    width: 30rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.register__img--wrap {
+    display: flex;
+    align-items: center;
+}
+
+.register__img {
+    height: 200px;
+}

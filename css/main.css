@@ -1,3 +1,115 @@
+* {
+    color: #335576;
+}
+
+.hero {
+    min-height: 380px;
+    background-color: #FEFAF5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 55px;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero__img--wrap {
+    display: flex;
+    align-items: center;
+}
+
 .hero__img {
-    width: 40vw;
+    height: 300px;
+}
+
+.hero__context {
+    height: 180px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__slogan {
+    font-size: 30px;
+}
+
+.hero__info {
+    font-size: 12px;
+}
+
+.hero__btn {
+    background-color: #DB7A4E;
+    display: flex;
+    width: 8rem;
+    height: 1.8rem;
+    font-size: 13px;
+    font-weight: 100;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 420px;
+    padding: 2rem 55px;
+    box-sizing: content-box;
+}
+
+.destinations__title {
+    font-size: 19.2px;
+}
+
+.destinations__card--wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    padding: 0 6.25rem;
+    gap: 35px;
+
+}
+
+.destinations__card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 11.875rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 12px 20px;
+}
+
+.destinations__card:hover {
+    opacity: 0.8;
+}
+
+.destinations__name {
+    color: white;
+}
+
+.destinations__hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.destinations__greece {
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover;
+
+}
+
+.destinations__iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+
 }
