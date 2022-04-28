@@ -3,15 +3,15 @@
 }
 
 .hero {
-    min-height: 380px;
     background-color: #FEFAF5;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 55px;
+    padding: 2.5rem 3.438rem;
     justify-content: center;
     box-sizing: border-box;
     align-items: center;
-    gap: 35px;
+    row-gap: 2.188rem;
+    margin-top: 2.5rem;
 }
 
 .hero__img--wrap {
@@ -20,23 +20,23 @@
 }
 
 .hero__img {
-    height: 300px;
+    max-height: 18.75rem;
 }
 
 .hero__context {
-    height: 180px;
-    width: 45%;
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    row-gap: 0.9rem;
 }
 
 .hero__slogan {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .hero__info {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .hero__btn {
@@ -44,35 +44,37 @@
     display: flex;
     width: 8rem;
     height: 1.8rem;
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: 100;
     color: white;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     justify-content: center;
     align-items: center;
 }
 
+.hero__btn:hover {
+    opacity: 0.8;
+}
+
 .destinations {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    min-height: 420px;
-    padding: 2rem 55px;
+    min-height: 26.25rem;
+    padding: 2rem 3.4rem;
     box-sizing: content-box;
+    row-gap: 1rem;
 }
 
 .destinations__title {
-    font-size: 19.2px;
+    font-size: 1.2rem;
 }
 
 .destinations__card--wrap {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    justify-content: center;
-    padding: 0 6.25rem;
-    gap: 35px;
-
+    justify-content: space-evenly;
+    row-gap: 1rem;
 }
 
 .destinations__card {
@@ -87,7 +89,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
 }
 
 .destinations__card:hover {
@@ -104,12 +106,9 @@
 
 .destinations__greece {
     background-image: url(../assets/Images/greece.jpg);
-    background-size: cover;
 
 }
 
 .destinations__iceland {
     background-image: url(../assets/Images/iceland.jpg);
-    background-size: cover;
-
 }

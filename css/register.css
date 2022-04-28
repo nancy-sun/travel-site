@@ -4,24 +4,58 @@
     min-height: 40rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 3.5rem 3rem 7rem;
     align-items: center;
     box-sizing: border-box;
     background-color: #FEFAF5;
     justify-content: space-evenly;
+    gap: 2.188rem;
+    margin-top: 2.5rem;
 }
 
 .register {
-    width: 30rem;
-    background-color: red;
+    width: 28rem;
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    color: #335576;
+}
+
+.register__title {
+    font-size: 1.5rem;
 }
 
 .register__form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.register__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.register__item--box {
+    min-height: 1.5rem;
+    border: solid 0.01rem #335576;
+    border-radius: 0.8rem;
+    opacity: 0.7;
+    padding: 0.8rem;
+}
+
+.register__item--box:hover {
+    opacity: 1;
+}
+
+.register__submit {
+    color: #335576;
+}
+
+.register__submit:hover {
+    cursor: pointer;
 }
 
 
@@ -31,5 +65,5 @@
 }
 
 .register__img {
-    height: 200px;
+    height: 12.5rem;
 }

@@ -5,12 +5,15 @@
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+}
+
+body {
+    width: 100vw;
 }
 
 
@@ -20,6 +23,11 @@ ul {
     background-color: #FFFFFF;
     justify-content: space-between;
     padding: 1rem 3rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 2;
 }
 
 .nav__logo {
@@ -33,6 +41,11 @@ ul {
     justify-content: space-between;
     font-size: 0.78rem;
     flex-wrap: wrap;
+}
+
+.nav__item {
+    line-height: 1.55;
+    color: black;
 }
 
 
@@ -50,7 +63,7 @@ ul {
     background-color: #FEFAF5;
     padding: 0 9rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     color: #335576;
     flex-wrap: wrap;
@@ -95,6 +108,14 @@ ul {
     font-weight: 300;
     text-transform: uppercase;
     margin: 0.6rem 0;
+}
+
+.footer__info--email {
+    color: #335576;
+}
+
+.footer__info--email:hover {
+    text-decoration: underline 1px #DB7A4E;
 }
 
 .footer__icon {
