@@ -110,11 +110,11 @@ body {
     margin: 0.6rem 0;
 }
 
-.footer__info--email {
+.footer__info-email {
     color: #335576;
 }
 
-.footer__info--email:hover {
+.footer__info-email:hover {
     text-decoration: underline 1px #DB7A4E;
 }
 

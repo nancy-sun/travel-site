@@ -38,7 +38,7 @@
     gap: 0.4rem;
 }
 
-.register__item--box {
+.register__item-box {
     min-height: 1.5rem;
     border: solid 0.01rem #335576;
     border-radius: 0.8rem;
@@ -46,7 +46,7 @@
     padding: 0.8rem;
 }
 
-.register__item--box:hover {
+.register__item-box:hover {
     opacity: 1;
 }
 
@@ -59,7 +59,7 @@
 }
 
 
-.register__img--wrap {
+.register__img-wrap {
     display: flex;
     align-items: center;
 }

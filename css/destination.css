@@ -30,7 +30,7 @@
     margin: 1rem 0;
 }
 
-.banner__card--wrap {
+.banner__card-wrap {
     display: flex;
     width: 100vw;
     flex-direction: row;
