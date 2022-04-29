@@ -10,4 +10,4 @@ A register page is also included for styles.
 html, css, BEM naming strategy, flexbox...
 
 ### function
-interactive navbar, cards, footer(email and social section), and register form.
+interactive navbar, card view(destination product), footer(email and social section), and register form.
